@@ -1,0 +1,26 @@
+{
+  "name": "@hanhan9449/qr-code-solidjs",
+  "version": "0.0.0",
+  "description": "",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "build:watch": "npm run build",
+    "serve": "vite preview"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.9.5",
+    "vite": "^4.1.1",
+    "vite-plugin-solid": "^2.5.0"
+  },
+  "dependencies": {
+    "@hanhan9449/solidjs-ui": "^0.0.1",
+    "@hanhan9449/utils": "^0.0.2",
+    "@types/qrcode": "~1.5.0",
+    "copy-to-clipboard": "~3.3.3",
+    "qrcode": "~1.5.3",
+    "solid-js": "^1.6.10"
+  }
+}
